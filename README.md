@@ -83,8 +83,8 @@ The smoothed data is then used for peak detection and Gaussian fitting:
 # Process the smoothed CIT and IRC spectra
 df_cit_results, df_irc_results = process_smoothed_data(
     cit_spec, irc_spec,
-    cit_height=0.04, cit_distance=5, cit_prominence=0.001, cit_color='green', cit_peak_color='red',        # CIT-specific parameters
-    irc_height=0.07, irc_distance=10, irc_prominence=0.005, irc_color='orange', irc_peak_color='red'       # IRC-specific parameters
+    cit_height=0.04, cit_distance=5, cit_prominence=0.001, cit_color='green', cit_peak_color='red',        # CIT parameters
+    irc_height=0.07, irc_distance=10, irc_prominence=0.005, irc_color='orange', irc_peak_color='red'       # IRC parameters
 )
 ```
 ![Detected Peaks](images/DetectedPeaks.png)
