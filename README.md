@@ -93,7 +93,7 @@ The "measure_Tint_with_gaussian_fit" function fits a Gaussian model to the CIT6 
 ```python
 measure_Tint_with_gaussian_fit(rest_freq, mol, cit_spec, irc_spec)
 ```
-![Fitted Gauss](images/FittedGauss2.png)
+![Fitted Gauss](images/GaussFit.png)
 
 ## Peak Detection and Classification
 
