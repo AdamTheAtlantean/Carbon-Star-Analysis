@@ -38,13 +38,6 @@ To use the code within this repository you will need to install the following li
 !pip install numpy pandas matplotlib astropy scipy specutils
 ```
 
-If you're running the code in Google Colab, you can mount Google Drive using:
- ```python
-from google.colab import drive
-drive.mount('/content/drive/')
-%cd /content/drive/MyDrive
-```
-
 ## Usage
 
 Load the spectral line data for both CIT6 and CW Leonis:
